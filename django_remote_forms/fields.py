@@ -1,7 +1,7 @@
 import datetime
 
 from django.conf import settings
-
+import six
 
 from django_remote_forms import logger, widgets
 
