@@ -1,5 +1,5 @@
 import datetime
-
+import six
 from django.utils.dates import MONTHS
 
 class SortedDict(dict):
