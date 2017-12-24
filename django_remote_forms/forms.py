@@ -3,7 +3,6 @@ import six
 import warnings
 from django_remote_forms import fields, logger
 from django_remote_forms.utils import resolve_promise
-from django.utils.deprecation import RemovedInDjango19Warning
 
 class SortedDict(dict):
     """
