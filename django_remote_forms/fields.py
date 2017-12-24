@@ -2,6 +2,7 @@ import datetime
 import warnings
 from django.conf import settings
 import six
+from django.utils.deprecation import RemovedInDjango19Warning
 
 from django_remote_forms import logger, widgets
 
