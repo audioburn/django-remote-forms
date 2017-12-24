@@ -2,6 +2,7 @@ import datetime
 import six
 import warnings
 from django.utils.dates import MONTHS
+from django.utils.deprecation import RemovedInDjango19Warning
 
 class SortedDict(dict):
     """
